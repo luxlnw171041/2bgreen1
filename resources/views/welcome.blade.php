@@ -1,1182 +1,432 @@
 <!DOCTYPE html>
-<!--[if IE 7]><html class="ie ie7 ltie8 ltie9" lang="en-US"><![endif]-->
-<!--[if IE 8]><html class="ie ie8 ltie9" lang="en-US"><![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html lang="en-US">
-<!--<![endif]-->
+<html lang="en">
 
-
-<!--  12:30 GMT -->
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Green Nature</title>
+  <title>Bethany Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- <link href="{{ asset('layout/https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin&amp;') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/https://fonts.googleapis.com/css?family=Noto+Sans%3Aregular%2Citalic%2C700%2C700italic&amp;subset=greek%2Ccyrillic-ext%2Ccyrillic%2Clatin%2Clatin-ext%2Cvietnamese%2Cgreek-ext&amp;') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/https://fonts.googleapis.com/css?family=Merriweather%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/https://fonts.googleapis.com/css?family=Mystery+Quest%3Aregular&amp;subset=latin%2Clatin-ext&amp;') }}" rel='stylesheet'> -->
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin&amp;' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Noto+Sans%3Aregular%2Citalic%2C700%2C700italic&amp;subset=greek%2Ccyrillic-ext%2Ccyrillic%2Clatin%2Clatin-ext%2Cvietnamese%2Cgreek-ext&amp;' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Mystery+Quest%3Aregular&amp;subset=latin%2Clatin-ext&amp;' rel='stylesheet'>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <link href="{{ asset('layout/css/style.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/plugins/superfish/css/superfish.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/plugins/dl-menu/component.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/plugins/font-awesome-new/css/font-awesome.min.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/plugins/elegant-font/style.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/plugins/fancybox/jquery.fancybox.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/plugins/flexslider/flexslider.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/css/style-responsive.css') }}"rel='stylesheet' >
-    <link href="{{ asset('layout/css/style-custom.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/plugins/masterslider/public/assets/css/masterslider.main.css') }}" rel='stylesheet'>
-    <link href="{{ asset('layout/css/master-custom.css') }}" rel='stylesheet'>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<!--     
-    <link rel='stylesheet' href='css/style.css' />
-    <link rel='stylesheet' href='plugins/superfish/css/superfish.css' />
-    <link rel='stylesheet' href='plugins/dl-menu/component.css' />
-    <link rel='stylesheet' href='plugins/font-awesome-new/css/font-awesome.min.css' />
-    <link rel='stylesheet' href='plugins/elegant-font/style.css' />
-    <link rel='stylesheet' href='plugins/fancybox/jquery.fancybox.css' />
-    <link rel='stylesheet' href='plugins/flexslider/flexslider.css' />
-    <link rel='stylesheet' href='css/style-responsive.css' />
-    <link rel='stylesheet' href='css/style-custom.css' />
-    <link rel='stylesheet' href='plugins/masterslider/public/assets/css/masterslider.main.css' />
-    <link rel='stylesheet' href='css/master-custom.css' /> -->
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-
+  <!-- =======================================================
+  * Template Name: Bethany - v4.3.0
+  * Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body data-rsssl=1 class="home page-template-default page page-id-5680 _masterslider _msp_version_3.2.7 woocommerce-no-js">
-    <div class="body-wrapper  float-menu" data-home="https://demo.goodlayers.com/greennature/">
-        <header class="greennature-header-wrapper header-style-5-wrapper greennature-header-with-top-bar">
-            <!-- top navigation -->
-            <div class="top-navigation-wrapper">
-                <div class="top-navigation-container container">
-                    <div class="top-navigation-left">
-                        <div class="top-navigation-left-text">
-                            Phone : +1800-222-3333      Email : contact@yourdomain.com </div>
-                    </div>
-                    <div class="top-navigation-right">
-                        <div class="top-social-wrapper">
-                            <div class="social-icon">
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-facebook"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-flickr"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-linkedin"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-pinterest-p"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-tumblr"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-twitter"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-vimeo"></i></a>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-            <div id="greennature-header-substitute"></div>
-            <div class="greennature-header-inner header-inner-header-style-5">
-                <div class="greennature-header-container container">
-                    <div class="greennature-header-inner-overlay"></div>
-                    <!-- logo -->
-                    <div class="greennature-logo">
-                        <div class="greennature-logo-inner">
-                            <a href="index-2.html">
-                                <img src="layout/images/logo1.png" alt="" />asd </a>
-                        </div>
-                        <div class="greennature-responsive-navigation dl-menuwrapper" id="greennature-responsive-navigation">
-                            <button class="dl-trigger">Open Menu</button>
-                            <ul id="menu-main-menu" class="dl-menu greennature-main-mobile-menu">
-                                <li class="menu-item menu-item-home current-menu-item page_item page-item-5680 current_page_item"><a href="index-2.html" aria-current="page">Home</a></li>
-                                <li class="menu-item menu-item-has-children menu-item-15"><a href="#">Pages</a>
-                                    <ul class="dl-submenu">
-                                        <li class="menu-item"><a href="act-now.html">Act Now</a></li>
-                                        <li class="menu-item"><a href="about-1.html">About Us 1</a></li>
-                                        <li class="menu-item"><a href="about-2.html">About Us 2</a></li>
-                                        <li class="menu-item"><a href="service.html">Service</a></li>
-                                        <li class="menu-item"><a href="personnel-2.html">Personnel</a></li>
-                                        <li class="menu-item"><a href="qa.html">Q&#038;A</a></li>
-                                        <li class="menu-item"><a href="contact-page.html">Contact Page 1</a></li>
-                                        <li class="menu-item"><a href="contact-page-2.html">Contact Page 2</a></li>
-                                        <li class="menu-item menu-item-12"><a href="404error.html">404 Page</a></li>
-                                        <li class="menu-item"><a href="testimonial.html">Testimonial</a></li>
-                                        <li class="menu-item menu-item-has-children"><a href="gallery-3-columns-without-caption.html">Gallery</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="gallery-2-columns-without-caption.html">Gallery 2 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-2-columns-with-caption.html">Gallery 2 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-without-caption.html">Gallery 3 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-with-caption.html">Gallery 3 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-without-caption.html">Gallery 4 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-with-caption.html">Gallery 4 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-without-caption.html">Gallery 5 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-with-caption.html">Gallery 5 Columns With Caption</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children"><a href="portfolio-grid-3-columns-no-space.html">Portfolio</a>
-                                    <ul class="dl-submenu">
-                                        <li class="menu-item menu-item-has-children"><a href="portfolio-grid-3-columns.html">Portfolio Classic</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="portfolio-grid-1-column.html">Portfolio Grid 1 Column (Both Sidebar)</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-2-columns.html">Portfolio Grid 2 Columns (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-3-columns.html">Portfolio Grid 3 Columns</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-4-columns.html">Portfolio Grid 4 Columns</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-2-columns-no-space.html">Portfolio Grid 2 Columns, No Space</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-3-columns-no-space.html">Portfolio Grid 3 Columns, No Space</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-4-columns-no-space.html">Portfolio Grid 4 Columns, No Space</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children"><a href="portfolio-modern-3-columns-with-filter.html">Portfolio With Filter</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="portfolio-grid-1-columns-with-filter.html">Portfolio Grid 1 Col With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-2-columns-with-filter.html">Portfolio Grid 2 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-3-columns-with-filter.html">Portfolio Grid 3 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-grid-4-columns-with-filter.html">Portfolio Grid 4 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-modern-3-columns-with-filter.html">Portfolio Modern 3 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="portfolio-modern-4-columns-with-filter.html">Portfolio Modern 4 Cols With Filter</a></li>
-                                                <li class="menu-item"><a href="singleprod.html">Single Portfolio</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children"><a href="blog-full-with-right-sidebar.html">Blog</a>
-                                    <ul class="dl-submenu">
-                                    	<li class="menu-item"><a href="blog-full-with-right-sidebar.html">Blog Full</a></li>
+<body>
 
-                                        <li ss="menu-item menu-item-has-children menu-item-"><a href="#">Blog Column</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="blog-1-column.html">Blog 1 Column (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="blog-2-columns.html">Blog 2 Columns (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="blog-3-columns.html">Blog 3 Columns</a></li>
-                                                <li class="menu-item"><a href="blog-4-columns.html">Blog 4 Columns</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children menu-item-7"><a href="#">Blog Masonry</a>
-                                            <ul class="dl-submenu">
-                                                <li class="menu-item"><a href="blog-2-columns-masonry.html">Blog 2 Columns &#8211; Masonry (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="blog-3-columns-masonry.html">Blog 3 Columns – Masonry</a></li>
-                                                <li class="menu-item"><a href="blog-4-columns-masonry.html">Blog 4 Columns – Masonry</a></li>
-                                            </ul>
-                                        </li>
-
-                                    </ul>
-                                </li>
-       
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- navigation -->
-                    <div class="greennature-navigation-wrapper">
-                        <nav class="greennature-navigation" id="greennature-main-navigation">
-                            <ul id="menu-main-menu-1" class="sf-menu greennature-main-menu">
-                                <li class="menu-item menu-item-home current-menu-item greennature-normal-menu"><a href="index-2.html"><i class="fa fa-home"></i>Home</a></li>
-                                <li class="menu-item menu-item-has-children greennature-normal-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-file-text-o"></i>Pages</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="act-now.html">Act Now</a></li>
-                                        <li class="menu-item"><a href="about-1.html">About Us 1</a></li>
-                                        <li class="menu-item"><a href="about-2.html">About Us 2</a></li>
-                                        <li class="menu-item"><a href="service.html">Service</a></li>
-                                        <li class="menu-item"><a href="personnel-2.html">Personnel</a></li>
-                                        <li class="menu-item"><a href="qa.html">Q&#038;A</a></li>
-                                        <li class="menu-item"><a href="contact-page.html">Contact Page 1</a></li>
-                                        <li class="menu-item"><a href="404error.html">404 Page</a></li>
-                                        <li class="menu-item"><a href="testimonial.html">Testimonial</a></li>
-                                        <li class="menu-item menu-item-has-children"><a href="gallery-3-columns-without-caption.html" class="sf-with-ul-pre">Gallery</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="gallery-2-columns-without-caption.html">Gallery 2 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-2-columns-with-caption.html">Gallery 2 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-without-caption.html">Gallery 3 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-3-columns-with-caption.html">Gallery 3 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-without-caption.html">Gallery 4 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-4-columns-with-caption.html">Gallery 4 Columns With Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-without-caption.html">Gallery 5 Columns Without Caption</a></li>
-                                                <li class="menu-item"><a href="gallery-5-columns-with-caption.html">Gallery 5 Columns With Caption</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-mega-menu"><a href="portfolio-grid-3-columns-no-space.html" class="sf-with-ul-pre"><i class="fa fa-globe"></i>Portfolio</a>
-                                    <div class="sf-mega">
-                                        <ul class="sub-menu">
-                                            <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="portfolio-grid-3-columns.html" class="sf-with-ul-pre">Portfolio Classic</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="portfolio-grid-1-column.html">Portfolio Grid 1 Column (Both Sidebar)</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-2-columns.html">Portfolio Grid 2 Columns (Right Sidebar)</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-3-columns.html">Portfolio Grid 3 Columns</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-4-columns.html">Portfolio Grid 4 Columns</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-2-columns-no-space.html">Portfolio Grid 2 Columns, No Space</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-3-columns-no-space.html">Portfolio Grid 3 Columns, No Space</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-4-columns-no-space.html">Portfolio Grid 4 Columns, No Space</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children" data-column="four columns" data-size="1/3"><a href="portfolio-modern-3-columns-with-filter.html" class="sf-with-ul-pre">Portfolio With Filter</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="portfolio-grid-1-columns-with-filter.html">Portfolio Grid 1 Col With Filter</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-2-columns-with-filter.html">Portfolio Grid 2 Cols With Filter</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-3-columns-with-filter.html">Portfolio Grid 3 Cols With Filter</a></li>
-                                                    <li class="menu-item"><a href="portfolio-grid-4-columns-with-filter.html">Portfolio Grid 4 Cols With Filter</a></li>
-                                                    <li class="menu-item"><a href="portfolio-modern-3-columns-with-filter.html">Portfolio Modern 3 Cols With Filter</a></li>
-                                                    <li class="menu-item"><a href="portfolio-modern-4-columns-with-filter.html">Portfolio Modern 4 Cols With Filter</a></li>
-                                                    <li class="menu-item"><a href="singleprod.html">Single Portfolio</a></li>
-                                                </ul>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-normal-menu"><a href="blog-full-with-right-sidebar.html" class="sf-with-ul-pre">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="blog-full-with-right-sidebar.html">Blog Full</a></li>
-                                        <li class="menu-item menu-item-has-children menu-item-"><a href="#" class="sf-with-ul-pre">Blog Column</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="blog-1-column.html">Blog 1 Column (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="blog-2-columns.html">Blog 2 Columns (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="blog-3-columns.html">Blog 3 Columns</a></li>
-                                                <li class="menu-item"><a href="blog-4-columns.html">Blog 4 Columns</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children menu-item-7"><a href="#" class="sf-with-ul-pre">Blog Masonry</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="blog-2-columns-masonry.html">Blog 2 Columns &#8211; Masonry (Right Sidebar)</a></li>
-                                                <li class="menu-item"><a href="blog-3-columns-masonry.html">Blog 3 Columns – Masonry</a></li>
-                                                <li class="menu-item"><a href="blog-4-columns-masonry.html">Blog 4 Columns – Masonry</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <a class="greennature-donate-button greennature-lb-payment"><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Donate</span></a>
-
-                        </nav>
-                        <div class="greennature-navigation-gimmick" id="greennature-navigation-gimmick"></div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </header><!-- is search -->
-        <div class="content-wrapper">
-            <div class="greennature-content">
-
-                <!-- Above Sidebar Section-->
-                <img src="layout/upload/slider-1.jpg" />
-                <!-- Sidebar With Content Section-->
-                <div class="with-sidebar-wrapper">
-                    <section id="content-section-1">
-                        <div class="greennature-full-size-wrapper gdlr-show-all no-skin" style="padding-bottom: 0px;  background-color: #ffffff; ">
-                            <div class="greennature-master-slider-item greennature-slider-item greennature-item" style="margin-bottom: 0px;">
-                                <!-- MasterSlider -->
-                                <div id="P_slider_1" class="master-slider-parent ms-parent-id-1">
-                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>asda
-                                    <!-- MasterSlider Main -->
-                                    <div id="slider_1" class="master-slider ms-skin-default">
-
-                                        <div class="ms-slide" data-delay="7" data-fill-mode="fill">
-                                            <img src="layout/plugins/masterslider/public/assets/css/blank.gif" alt="" title="" data-src="layout/upload/slider-1.jpg" />
-
-                                            <a href="#" target="_self" class="ms-layer ms-btn ms-btn-round ms-btn-n msp-preset-btn-159" data-effect="t(true,n,n,-500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="400" data-delay="987" data-ease="easeOutQuint" data-type="button" data-offset-x="1" data-offset-y="208" data-origin="ml" data-position="normal">Learn More</a>
-
-                                            <div class="ms-layer  msp-cn-1-3" style="" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="437" data-delay="625" data-ease="easeOutQuint" data-offset-x="0" data-offset-y="105" data-origin="ml" data-position="normal">
-                                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>The Earth</div>
-
-                                            <div class="ms-layer  msp-cn-1-2" style="" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="425" data-delay="325" data-ease="easeOutQuint" data-offset-x="0" data-offset-y="-5" data-origin="ml" data-position="normal">
-                                                We can heal</div>
-
-                                            <div class="ms-layer  msp-cn-1-1" style="" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="350" data-ease="easeOutQuint" data-offset-x="0" data-offset-y="-100" data-origin="ml" data-position="normal">
-                                                Together</div>
-
-                                        </div>
-                                        <div class="ms-slide" data-delay="7" data-fill-mode="fill">
-                                            <img src="layout/plugins/masterslider/public/assets/css/blank.gif" alt="" title="" data-src="layout/upload/slider-2.jpg" />
-
-                                            <a href="#" target="_self" class="ms-layer ms-btn ms-btn-round ms-btn-n msp-preset-btn-159" data-effect="t(true,n,n,-500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="400" data-delay="987" data-ease="easeOutQuint" data-type="button" data-offset-x="1" data-offset-y="227" data-origin="ml" data-position="normal">Learn More</a>
-
-                                            <div class="ms-layer  msp-cn-1-9" style="" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="437" data-delay="625" data-ease="easeOutQuint" data-offset-x="0" data-offset-y="139" data-origin="ml" data-position="normal">
-                                                Save Anim</div>
-
-                                            <div class="ms-layer  msp-cn-1-7" style="" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="437" data-delay="625" data-ease="easeOutQuint" data-offset-x="383" data-offset-y="139" data-origin="ml" data-position="normal">
-                                                als</div>
-
-                                            <div class="ms-layer  msp-cn-1-5" style="" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="350" data-ease="easeOutQuint" data-offset-x="0" data-offset-y="52" data-origin="ml" data-position="normal">
-                                                Help Us</div>
-
-                                        </div>
-                                        <div class="ms-slide" data-delay="7" data-fill-mode="fill">
-                                            <img src="layout/plugins/masterslider/public/assets/css/blank.gif" alt="" title="" data-src="layout/upload/slider-3.jpg" />
-
-                                            <div class="ms-layer  msp-cn-1-10" style="" data-effect="t(true,n,n,-500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="425" data-delay="425" data-ease="easeOutQuint" data-offset-x="0" data-offset-y="82" data-origin="mc" data-position="normal">
-                                                The Better Place</div>
-
-                                            <div class="ms-layer  msp-cn-1-13" style="" data-effect="t(true,n,n,500,n,n,n,n,n,n,n,n,n,n,n)" data-duration="437" data-ease="easeOutQuint" data-offset-x="0" data-offset-y="-15" data-origin="mc" data-position="normal">
-                                                Make This World</div>
-
-                                        </div>
-
-                                    </div>
-                                    <!-- END MasterSlider Main -->
-
-                                </div>
-                                <!-- END MasterSlider -->
-
-
-                            </div>
-                            <div class="clear"></div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-2">
-                        <div class="greennature-color-wrapper  gdlr-show-all greennature-skin-brown-column-service" style="background-color: #2d2418;  border-top: 5px solid #3f3221; padding-top: 0px; padding-bottom: 0px; ">
-                            <div class="container">
-                                <div class="four columns">
-                                    <div class="greennature-ux column-service-ux">
-                                        <div class="greennature-item greennature-column-service-item greennature-type-2" style="margin-bottom: 0px;">
-                                            <div class="column-service-image"><img src="layout/upload/icon-service-1.png" alt="" width="80" height="80" /></div>
-                                            <div class="column-service-content-wrapper">
-                                                <h3 class="column-service-title">Save Our Forest</h3>
-                                                <div class="column-service-content greennature-skin-content">
-                                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-                                                </div><a class="column-service-read-more" href="#">Learn More</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="four columns">
-                                    <div class="greennature-ux column-service-ux">
-                                        <div class="greennature-item greennature-column-service-item greennature-type-2-bg" style="margin-bottom: 0px;background-color: #3f3221;">
-                                            <div class="column-service-image"><img src="layout/upload/icon-service-2.png" alt="" width="80" height="80" /></div>
-                                            <div class="column-service-content-wrapper">
-                                                <h3 class="column-service-title">Save Our Water</h3>
-                                                <div class="column-service-content greennature-skin-content">
-                                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero. Nullam quis risus eget urna mollis ornare vel eu leo. Egestas Dolor Risus.</p>
-                                                </div><a class="column-service-read-more" href="#">Learn More</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="four columns">
-                                    <div class="greennature-ux column-service-ux">
-                                        <div class="greennature-item greennature-column-service-item greennature-type-2" style="margin-bottom: 0px;">
-                                            <div class="column-service-image"><img src="layout/upload/icon-service-3.png" alt="" width="80" height="80" /></div>
-                                            <div class="column-service-content-wrapper">
-                                                <h3 class="column-service-title">Recycling is A Must</h3>
-                                                <div class="column-service-content greennature-skin-content">
-                                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-                                                </div><a class="column-service-read-more" href="#">Learn More</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-3">
-                        <div class="greennature-parallax-wrapper greennature-background-image gdlr-show-all no-skin" id="greennature-parallax-wrapper-1" data-bgspeed="0.11" style="background-image: url('layout/upload/donation-bg.jpg'); padding-top: 90px; padding-bottom: 65px; ">
-                            <div class="container">
-                                <div class="six columns">
-                                    <div class="greennature-item greennature-action-ads-item" style="background: url('layout/upload/donation-bg-1.jpg'); ">
-                                        <h3 class="action-ads-title" style="color: #facc2e;">Make Donation</h3>
-                                        <div class="action-ads-caption greennature-skin-info">Your money can cure this earth</div>
-                                        <div class="action-ads-divider" style="background: #facc2e;"></div>
-                                        <div class="action-ads-content">
-                                            <p>We are a larhge froup of people who powered movement fighting for a green and peaceful future for your land, forest, ocenas, foods, climate and pass the green earth to our children. Each one of us can make small changes in our lives, but together we can change the world.</p>
-                                            <a class="action-ads-button large greennature-button greennature-lb-payment" href="#" style="color: #6d5b1c;background-color: #fec428;">Donate Now</a></div>
-                                    </div>
-                                </div>
-                                <div class="six columns">
-                                    <div class="greennature-item greennature-action-ads-item" style="background: url('layout/upload/donation-bg-2.jpg'); ">
-                                        <h3 class="action-ads-title" style="color: #5dc269;">Stop Drilling, Need Action!</h3>
-                                        <div class="action-ads-caption greennature-skin-info">Your voice does matter</div>
-                                        <div class="action-ads-divider" style="background: #5dc269;"></div>
-                                        <div class="action-ads-content">
-                                            <p>The Obama administration just granted Shell&#8217;s final permit to drill in the Alaskan Arctic this summer despite overwhelming global public opposition and the obvious risks to Arctic communities, wildlife, and our climate. But this isn’t over. The President knows what’s at stake: his climate legacy.</p>
-                                            <a class="action-ads-button large greennature-button" style="color: #ffffff;background-color: #5dc269;" href="#">Act Now!</a></div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-4">
-                        <div class="greennature-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-bottom: 25px; ">
-                            <div class="container">
-                                <div class="greennature-item-title-wrapper greennature-item  greennature-left-divider greennature-medium ">
-                                    <div class="greennature-item-title-container container">
-                                        <div class="greennature-item-title-head">
-                                            <h3 class="greennature-item-title greennature-skin-title greennature-skin-border"><img src="layout/upload/icon-5.png" alt="" width="80" height="80" />Our Recent Projects</h3><a class="greennature-item-title-link" href="#">More Projects</a>
-                                            <div class="clear"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item-wrapper type-classic-portfolio" >
-                                    <div class="portfolio-item-holder  greennature-portfolio-column-4">
-                                        <div class="greennature-isotope" data-type="portfolio" data-layout="fitRows">
-                                            <div class="clear"></div>
-                                            <div class="three columns">
-                                                <div class="greennature-item greennature-portfolio-item greennature-classic-portfolio">
-                                                    <div class="greennature-ux greennature-classic-portfolio-ux">
-                                                        <div class="portfolio-thumbnail greennature-image"><img src="layout/upload/shutterstock_161515241-540x326.jpg" alt="" width="540" height="326" /><span class="portfolio-overlay">&nbsp;</span><a class="portfolio-overlay-icon" href="upload/shutterstock_161515241.jpg" data-rel="fancybox"><span class="portfolio-icon" ><i class="fa fa-search" ></i></span></a></div>
-                                                        <div class="portfolio-classic-content">
-                                                            <h3 class="portfolio-title"><a  href="#"  >Wind Energy</a></h3>
-                                                            <div class="greennature-portfolio-info">
-                                                                <div class="portfolio-info portfolio-tag"><span class="info-head greennature-title">Tags </span><a href="#" rel="tag">Environment</a><span class="sep">,</span> <a href="#" rel="tag">Renewable Energy</a></div>
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                            <div class="portfolio-excerpt">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua....
-                                                                <div class="clear"></div><a href="#" class="excerpt-read-more">Read More</a></div><a class="portfolio-classic-learn-more" href="#">Learn More</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="three columns">
-                                                <div class="greennature-item greennature-portfolio-item greennature-classic-portfolio">
-                                                    <div class="greennature-ux greennature-classic-portfolio-ux">
-                                                        <div class="portfolio-thumbnail greennature-image"><img src="layout/upload/shutterstock_133689230-540x326.jpg" alt="" width="540" height="326" /><span class="portfolio-overlay">&nbsp;</span><a class="portfolio-overlay-icon" href="#"><span class="portfolio-icon" ><i class="fa fa-link" ></i></span></a></div>
-                                                        <div class="portfolio-classic-content">
-                                                            <h3 class="portfolio-title"><a  href="#"  >Elephant Sanctuary</a></h3>
-                                                            <div class="greennature-portfolio-info">
-                                                                <div class="portfolio-info portfolio-tag"><span class="info-head greennature-title">Tags </span><a href="#" rel="tag">African</a><span class="sep">,</span> <a href="#" rel="tag">Animals</a></div>
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                            <div class="portfolio-excerpt">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua....
-                                                                <div class="clear"></div><a href="#" class="excerpt-read-more">Read More</a></div><a class="portfolio-classic-learn-more" href="#">Learn More</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="three columns">
-                                                <div class="greennature-item greennature-portfolio-item greennature-classic-portfolio">
-                                                    <div class="greennature-ux greennature-classic-portfolio-ux">
-                                                        <div class="portfolio-thumbnail greennature-image"><img src="layout/upload/shutterstock_53600221-540x326.jpg" alt="" width="540" height="326" /><span class="portfolio-overlay">&nbsp;</span><a class="portfolio-overlay-icon" href="https://vimeo.com/101707505" data-rel="fancybox" data-fancybox-type="iframe"><span class="portfolio-icon" ><i class="fa fa-film" ></i></span></a></div>
-                                                        <div class="portfolio-classic-content">
-                                                            <h3 class="portfolio-title"><a  href="#"  >Conservation Volunteer</a></h3>
-                                                            <div class="greennature-portfolio-info">
-                                                                <div class="portfolio-info portfolio-tag"><span class="info-head greennature-title">Tags </span><a href="#" rel="tag">Cleaning</a><span class="sep">,</span> <a href="#" rel="tag">Volunteer</a></div>
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                            <div class="portfolio-excerpt">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua....
-                                                                <div class="clear"></div><a href="#" class="excerpt-read-more">Read More</a></div><a class="portfolio-classic-learn-more" href="#">Learn More</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="three columns">
-                                                <div class="greennature-item greennature-portfolio-item greennature-classic-portfolio">
-                                                    <div class="greennature-ux greennature-classic-portfolio-ux">
-                                                        <div class="portfolio-thumbnail greennature-image"><img src="layout/upload/shutterstock_124871620-540x326.jpg" alt="" width="540" height="326" /><span class="portfolio-overlay">&nbsp;</span><a class="portfolio-overlay-icon" href="#"><span class="portfolio-icon" ><i class="fa fa-link" ></i></span></a></div>
-                                                        <div class="portfolio-classic-content">
-                                                            <h3 class="portfolio-title"><a  href="#"  >Engery Conservation</a></h3>
-                                                            <div class="greennature-portfolio-info">
-                                                                <div class="portfolio-info portfolio-tag"><span class="info-head greennature-title">Tags </span><a href="#" rel="tag">Animals</a><span class="sep">,</span> <a href="#" rel="tag">Volunteer</a></div>
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                            <div class="portfolio-excerpt">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua....
-                                                                <div class="clear"></div><a href="#" class="excerpt-read-more">Read More</a></div><a class="portfolio-classic-learn-more" href="#">Learn More</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-5">
-                        <div class="greennature-color-wrapper  gdlr-show-all greennature-skin-service-half greennature-half-bg-wrapper" style="background-color: #f5f5f5; padding-bottom: 20px; ">
-                            <div class="greennature-half-bg greennature-bg-solid" style="background-image: url(layout/upload/shutterstock_133689230.jpg);"></div>
-                            <div class="container">
-                                <div class="six columns">
-                                    <div class="greennature-item greennature-content-item"></div>
-                                </div>
-                                <div class="six columns">
-                                    <div class="greennature-item greennature-icon-with-list-item">
-                                        <div class="list-with-icon-ux greennature-ux">
-                                            <div class="list-with-icon greennature-left">
-                                                <div class="list-with-icon-image"><img src="layout/upload/icon-1.png" alt="" width="80" height="80" /></div>
-                                                <div class="list-with-icon-content">
-                                                    <div class="list-with-icon-title greennature-skin-title">Mollis Mattis</div>
-                                                    <div class="list-with-icon-caption">
-                                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="clear"></div>
-                                            </div>
-                                        </div>
-                                        <div class="list-with-icon-ux greennature-ux">
-                                            <div class="list-with-icon greennature-left">
-                                                <div class="list-with-icon-image"><img src="layout/upload/icon-2.png" alt="" width="80" height="80" /></div>
-                                                <div class="list-with-icon-content">
-                                                    <div class="list-with-icon-title greennature-skin-title">Ullamcorper Mattis Etiam</div>
-                                                    <div class="list-with-icon-caption">
-                                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="clear"></div>
-                                            </div>
-                                        </div>
-                                        <div class="list-with-icon-ux greennature-ux">
-                                            <div class="list-with-icon greennature-left">
-                                                <div class="list-with-icon-image"><img src="layout/upload/icon-3.png" alt="" width="80" height="80" /></div>
-                                                <div class="list-with-icon-content">
-                                                    <div class="list-with-icon-title greennature-skin-title">Mattis Etiam Justo</div>
-                                                    <div class="list-with-icon-caption">
-                                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="clear"></div>
-                                            </div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-6">
-                        <div class="greennature-color-wrapper   " style="background-color: #ffffff; ">
-                            <div class="container">
-                                <div class="four columns">
-                                    <div class="greennature-item-title-wrapper greennature-item  greennature-left-divider greennature-small ">
-                                        <div class="greennature-item-title-container container">
-                                            <div class="greennature-item-title-head">
-                                                <h3 class="greennature-item-title greennature-skin-title greennature-skin-border">Recent News</h3><a class="greennature-item-title-link" href="#">Read All News</a>
-                                                <div class="clear"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="blog-item-wrapper">
-                                        <div class="blog-item-holder">
-                                            <div class="clear"></div>
-                                            <div class="twelve columns">
-                                                <div class="greennature-item greennature-blog-widget">
-                                                    <div class="greennature-ux greennature-blog-widget-ux">
-                                                        <article id="post-852" class="post-852 post type-post status-publish format-standard has-post-thumbnail hentry category-fit-row tag-blog tag-life-style">
-                                                            <div class="greennature-standard-style">
-                                                                <div class="greennature-blog-thumbnail">
-                                                                    <a href="#"> <img src="layout/upload/shutterstock_170752253-400x400.jpg" alt="" width="400" height="400" /></a>
-                                                                </div>
-
-                                                                <div class="greennature-blog-date-wrapper">
-                                                                    <div class="greennature-blog-day">11</div>
-                                                                    <div class="greennature-blog-month">Dec</div>
-                                                                </div>
-
-                                                                <header class="post-header">
-                                                                    <h3 class="greennature-blog-title"><a href="#">Donec luctus imperdiet</a></h3>
-
-                                                                    <div class="greennature-blog-info">
-                                                                        <div class="blog-info blog-comment greennature-skin-info"><i class="fa fa-comment-o"></i><a href="##respond">2 <span class="greennature-tail" >Comments</span></a></div>
-                                                                        <div class="blog-info blog-author greennature-skin-info"><i class="fa fa-pencil"></i><a href="#" title="Posts by John Maxwell" rel="author">John Maxwell</a></div>
-                                                                        <div class="clear"></div>
-                                                                    </div>
-                                                                    <div class="clear"></div>
-                                                                </header>
-                                                                <!-- entry-header -->
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                        </article>
-                                                        <!-- #post -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="clear"></div>
-                                            <div class="twelve columns">
-                                                <div class="greennature-item greennature-blog-widget">
-                                                    <div class="greennature-ux greennature-blog-widget-ux">
-                                                        <article id="post-862" class="post-862 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-fit-row tag-blog tag-link tag-news">
-                                                            <div class="greennature-standard-style">
-                                                                <div class="greennature-blog-thumbnail">
-                                                                    <a href="#"> <img src="layout/upload/shutterstock_49617541-400x400.jpg" alt="" width="400" height="400" /></a>
-                                                                </div>
-
-                                                                <div class="greennature-blog-date-wrapper">
-                                                                    <div class="greennature-blog-day">09</div>
-                                                                    <div class="greennature-blog-month">Dec</div>
-                                                                </div>
-
-                                                                <header class="post-header">
-                                                                    <h3 class="greennature-blog-title"><a href="#">Magna pars studiorum</a></h3>
-
-                                                                    <div class="greennature-blog-info">
-                                                                        <div class="blog-info blog-comment greennature-skin-info"><i class="fa fa-comment-o"></i><a href="##respond">2 <span class="greennature-tail" >Comments</span></a></div>
-                                                                        <div class="blog-info blog-author greennature-skin-info"><i class="fa fa-pencil"></i><a href="#" title="Posts by John Maxwell" rel="author">John Maxwell</a></div>
-                                                                        <div class="clear"></div>
-                                                                    </div>
-                                                                    <div class="clear"></div>
-                                                                </header>
-                                                                <!-- entry-header -->
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                        </article>
-                                                        <!-- #post -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="clear"></div>
-                                            <div class="twelve columns">
-                                                <div class="greennature-item greennature-blog-widget">
-                                                    <div class="greennature-ux greennature-blog-widget-ux">
-                                                        <article id="post-859" class="post-859 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-fit-row tag-blog tag-life-stlyle">
-                                                            <div class="greennature-standard-style">
-                                                                <div class="greennature-blog-thumbnail">
-                                                                    <a href="#"> <img src="layout/upload/shutterstock_70658833-400x400.jpg" alt="" width="400" height="400" /></a>
-                                                                </div>
-
-                                                                <div class="greennature-blog-date-wrapper">
-                                                                    <div class="greennature-blog-day">04</div>
-                                                                    <div class="greennature-blog-month">Dec</div>
-                                                                </div>
-
-                                                                <header class="post-header">
-                                                                    <h3 class="greennature-blog-title"><a href="#">Sedial eiusmod tempor</a></h3>
-
-                                                                    <div class="greennature-blog-info">
-                                                                        <div class="blog-info blog-comment greennature-skin-info"><i class="fa fa-comment-o"></i><a href="##respond">0 <span class="greennature-tail" >Comment</span></a></div>
-                                                                        <div class="blog-info blog-author greennature-skin-info"><i class="fa fa-pencil"></i><a href="#" title="Posts by John Maxwell" rel="author">John Maxwell</a></div>
-                                                                        <div class="clear"></div>
-                                                                    </div>
-                                                                    <div class="clear"></div>
-                                                                </header>
-                                                                <!-- entry-header -->
-                                                                <div class="clear"></div>
-                                                            </div>
-                                                        </article>
-                                                        <!-- #post -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="four columns">
-                                    <div class="greennature-title-item" style="margin-bottom: 35px;">
-                                        <div class="greennature-item-title-wrapper greennature-item  greennature-left-divider greennature-small ">
-                                            <div class="greennature-item-title-container container">
-                                                <div class="greennature-item-title-head">
-                                                    <h3 class="greennature-item-title greennature-skin-title greennature-skin-border">Current Campaign</h3>
-                                                    <div class="clear"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="greennature-video-item greennature-item">
-                                        <iframe src="http://player.vimeo.com/video/101707505?title=0&amp;byline=0&amp;portrait=0" width="620" height="348"></iframe>
-                                    </div>
-                                    <div class="greennature-item greennature-content-item">
-                                        <p><strong><a style="font-size: 15px;" href="#">Learn more about this campaign</a></strong></p>
-                                    </div>
-                                </div>
-                                <div class="four columns">
-                                    <div class="greennature-testimonial-item-wrapper">
-                                        <div class="greennature-item-title-wrapper greennature-item  greennature-nav-container greennature-left-divider greennature-small ">
-                                            <div class="greennature-item-title-container container">
-                                                <div class="greennature-item-title-head">
-                                                    <h3 class="greennature-item-title greennature-skin-title greennature-skin-border">Testimonial</h3><span class="greennature-nav-title"><i class="icon-angle-left greennature-flex-prev"></i><i class="icon-angle-right greennature-flex-next"></i></span>
-                                                    <div class="clear"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="greennature-item greennature-testimonial-item carousel greennature-left plain-style">
-                                            <div class="greennature-ux greennature-testimonial-ux">
-                                                <div class="flexslider" data-type="carousel" data-nav-container="greennature-testimonial-item" data-columns="1">
-                                                    <ul class="slides">
-                                                        <li class="testimonial-item">
-                                                            <div class="testimonial-content-wrapper">
-                                                                <div class="testimonial-content greennature-skin-content">
-                                                                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Maecena.</p>
-                                                                </div>
-                                                                <div class="testimonial-info">
-                                                                    <div class="testimonial-author-image greennature-skin-border"><img src="layout/upload/testimonial-3-150x150.jpg" alt="" width="150" height="150" /></div><span class="testimonial-author greennature-skin-link-color">Sarah Kof<span>, </span></span><span class="testimonial-position greennature-skin-info">Volunteer</span></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="testimonial-item">
-                                                            <div class="testimonial-content-wrapper">
-                                                                <div class="testimonial-content greennature-skin-content">
-                                                                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Maecena.</p>
-                                                                </div>
-                                                                <div class="testimonial-info">
-                                                                    <div class="testimonial-author-image greennature-skin-border"><img src="layout/upload/testimonial-1-150x150.jpg" alt="" width="150" height="150" /></div><span class="testimonial-author greennature-skin-link-color">Jane Doe<span>, </span></span><span class="testimonial-position greennature-skin-info">Volunteer</span></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="testimonial-item">
-                                                            <div class="testimonial-content-wrapper">
-                                                                <div class="testimonial-content greennature-skin-content">
-                                                                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Maecena.</p>
-                                                                </div>
-                                                                <div class="testimonial-info">
-                                                                    <div class="testimonial-author-image greennature-skin-border"><img src="layout/upload/testimonial-2-150x150.jpg" alt="" width="150" height="150" /></div><span class="testimonial-author greennature-skin-link-color">John Smith<span>, </span></span><span class="testimonial-position greennature-skin-info">Volunteer</span></div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-7">
-                        <div class="greennature-parallax-wrapper greennature-background-image gdlr-show-all greennature-skin-newsletter" id="greennature-parallax-wrapper-2" data-bgspeed="0" style="background-image: url('layout/upload/newsletter-bg.jpg'); padding-top: 145px; padding-bottom: 60px; ">
-                            <div class="container">
-                                <div class="greennature-title-item" style="margin-bottom: 45px;">
-                                    <div class="greennature-item-title-wrapper greennature-item  greennature-center greennature-large ">
-                                        <div class="greennature-item-title-container container">
-                                            <div class="greennature-item-title-head">
-                                                <h3 class="greennature-item-title greennature-skin-title greennature-skin-border">Subscribe To Newsletter</h3>
-                                                <div class="clear"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                                <div class="greennature-subscribe-item greennature-item">
-                                    <div class="greennature-newsletter-subscribe">
-
-                                        <div class="newsletter newsletter-subscription">
-                                            <form method="post" action="#" onsubmit="return newsletter_check(this)">
-                                                <input class="newsletter-email" type="email" name="ne" size="30" required placeholder="Please fill your email" />
-                                                <input class="newsletter-submit greennature-button" type="submit" value="Subscribe!" />
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-8">
-                        <div class="greennature-color-wrapper  gdlr-show-all greennature-skin-dark-skin" style="background-color: #1d1d1d; padding-bottom: 20px; ">
-                            <div class="container">
-                                <div class="one-fifth column"></div>
-                                <div class="three-fifth columns">
-                                    <div class="greennature-twitter-item-wrapper"><i class="fa fa-twitter"></i>
-                                        <div class="greennature-item greennature-twitter-item">
-                                            <div class="flexslider" data-type="carousel" data-nav-container="greennature-twitter-item">
-                                                <ul class="slides">
-                                                    <li>
-                                                        <div class="greennature-twitter"><span class="greennature-twitter-text"><a href="http://www.twitter.com/zoutula">@zoutula</a> <a href="http://www.twitter.com/ticksyapp">@ticksyapp</a> Try using Incognito or Private mode, it should help ;)</span><a class="greennature-twitter-time" href="#theme/statuses/1100397143569850368" target="_blank"> 20 days ago</a></div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="greennature-twitter"><span class="greennature-twitter-text"><a href="http://www.twitter.com/ticksyapp">@ticksyapp</a> Today got many complaints about error on Ticksy site. When will this be fixed please? <a target="_blank" href="https://t.co/vDWIZ4L5z4">https://t.co/vDWIZ4L5z4</a></span><a class="greennature-twitter-time" href="#theme/statuses/1100227350321483776" target="_blank"> 21 days ago</a></div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="greennature-twitter"><span class="greennature-twitter-text"><a href="http://www.twitter.com/Julianoe_">@Julianoe_</a> Sorry for the issue, after updating, go to admin panel and click save changes once. All will be back :)</span><a class="greennature-twitter-time" href="#theme/statuses/1083252477397393409" target="_blank"> 68 days ago</a></div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="greennature-twitter"><span class="greennature-twitter-text">Our 2nd Framework Themes are now ready for WP5.0 (Flawless Theme until Newsstand Theme. See this list here :â¦ <a target="_blank" href="https://t.co/TGq99d32RQ">https://t.co/TGq99d32RQ</a></span><a class="greennature-twitter-time" href="#theme/statuses/1072053781607534592" target="_blank"> 99 days ago</a></div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="greennature-item-title-nav greennature-nav-container  greennature-center greennature-large"><i class="icon-angle-left greennature-flex-prev"></i><i class="icon-angle-right greennature-flex-next"></i></div>
-                                    </div>
-                                </div>
-                                <div class="one-fifth column"></div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                    <section id="content-section-9">
-                        <div class="greennature-parallax-wrapper greennature-background-image gdlr-show-all greennature-skin-dark-skin" id="greennature-parallax-wrapper-3" data-bgspeed="0.15" style="background-image: url('layout/upload/service-bg-2.jpg'); padding-top: 135px; padding-bottom: 80px; ">
-                            <div class="container">
-                                <div class="three columns">
-                                    <div class="greennature-skill-item-wrapper greennature-skin-content greennature-item greennature-style-2" style="margin-bottom: 70px;"><img src="layout/upload/icon-4.png" alt="" width="80" height="80" />
-                                        <div class="greennature-skill-item-title" style="color: #5dc269;">1,000,000</div>
-                                        <div class="greennature-skill-item-caption" style="color: #ffffff;">Acres Conserved</div>
-                                    </div>
-                                </div>
-                                <div class="three columns">
-                                    <div class="greennature-skill-item-wrapper greennature-skin-content greennature-item greennature-style-2" style="margin-bottom: 70px;"><img src="layout/upload/icon-5.png" alt="" width="80" height="80" />
-                                        <div class="greennature-skill-item-title" style="color: #5dc269;">700</div>
-                                        <div class="greennature-skill-item-caption" style="color: #ffffff;">Scientists</div>
-                                    </div>
-                                </div>
-                                <div class="three columns">
-                                    <div class="greennature-skill-item-wrapper greennature-skin-content greennature-item greennature-style-2" style="margin-bottom: 70px;"><img src="layout/upload/icon-1.png" alt="" width="80" height="80" />
-                                        <div class="greennature-skill-item-title" style="color: #5dc269;">99.99%</div>
-                                        <div class="greennature-skill-item-caption" style="color: #ffffff;">Recycling</div>
-                                    </div>
-                                </div>
-                                <div class="three columns">
-                                    <div class="greennature-skill-item-wrapper greennature-skin-content greennature-item greennature-style-2" style="margin-bottom: 70px;"><img src="layout/upload/icon-2.png" alt="" width="80" height="80" />
-                                        <div class="greennature-skill-item-title" style="color: #5dc269;">2000MW</div>
-                                        <div class="greennature-skill-item-caption" style="color: #ffffff;">Solar Power</div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                                <div class="clear"></div>
-                                <div class="greennature-item greennature-divider-item" style="margin-bottom: 60px;">
-                                    <div class="greennature-divider thick"></div>
-                                </div>
-                                <div class="clear"></div>
-                                <div class="greennature-stunning-item-ux greennature-ux">
-                                    <div class="greennature-item greennature-stunning-item greennature-stunning-center">
-                                        <h2 class="stunning-item-title">The only way to make this happened is to take action!</h2>
-                                        <div class="stunning-item-caption greennature-skin-content">
-                                            <p>Praesent commodo cursus magna, vel scelerisque nislet.</p>
-                                        </div><a class="stunning-item-button greennature-button large greennature-lb-payment" href="#" style="background-color: #ecb338; color: #ffffff;">Donate Now!</a><a class="stunning-item-button greennature-button large" href="#">Act Now!</a></div>
-                                </div>
-                                <div class="clear"></div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </section>
-                </div>
-                <!-- Below Sidebar Section-->
-
-            </div>
-            <!-- greennature-content -->
-            <div class="clear"></div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container">
+      <div class="header-container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1 class="text-light"><a href="index.html"><img src="assets/img/logo1.png" class="img-fluid" alt=""><span>2BGREEN</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
-        <!-- content wrapper -->
 
-        <footer class="footer-wrapper">
-            <div class="footer-container container">
-                <div class="footer-column three columns" id="footer-widget-1">
-                    <div id="text-5" class="widget widget_text greennature-item greennature-widget">
-                        <div class="textwidget">
-                            <p><img src="layout/upload/logo-light.png" style="width: 170px;" alt="" /></p>
-                            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta. Etiam porta sem malesuada magna mollis euismod.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-column three columns" id="footer-widget-2">
-                    <div id="text-9" class="widget widget_text greennature-item greennature-widget">
-                        <h3 class="greennature-widget-title">Contact Info</h3>
-                        <div class="clear"></div>
-                        <div class="textwidget"><span class="clear"></span><span class="greennature-space" style="margin-top: -6px; display: block;"></span> Address: 184 Main Collins Street West Victoria 8007
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto " href="#services">services</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
 
-                            <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
-
-                            <i class="greennature-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> +1800-222-3333
-
-                            <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
-
-                            <i class="greennature-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; "></i> +1833-232-3443
-
-                            <span class="clear"></span><span class="greennature-space" style="margin-top: 10px; display: block;"></span>
-
-                            <i class="greennature-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> contact@yourdomain.com</div>
-                    </div>
-                </div>
-                <div class="footer-column three columns" id="footer-widget-3">
-                    <div id="gdlr-recent-post-widget-5" class="widget widget_gdlr-recent-post-widget greennature-item greennature-widget">
-                        <h3 class="greennature-widget-title">Recent Posts</h3>
-                        <div class="clear"></div>
-                        <div class="greennature-recent-post-widget">
-                            <div class="recent-post-widget">
-                                <div class="recent-post-widget-thumbnail">
-                                    <a href="#"><img src="layout/upload/shutterstock_294481373-150x150.jpg" alt="" width="150" height="150" /></a>
-                                </div>
-                                <div class="recent-post-widget-content">
-                                    <div class="recent-post-widget-title"><a href="#">Sem Porta Mollis Parturi</a></div>
-                                    <div class="recent-post-widget-info">
-                                        <div class="blog-info blog-date greennature-skin-info"><i class="fa fa-clock-o"></i><a href="#">21 Mar 2014</a></div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="recent-post-widget">
-                                <div class="recent-post-widget-thumbnail">
-                                    <a href="#"><img src="layout/upload/shutterstock_181393724-150x150.jpg" alt="" width="150" height="150" /></a>
-                                </div>
-                                <div class="recent-post-widget-content">
-                                    <div class="recent-post-widget-title"><a href="#">Nullam Lorem Mattis Purus</a></div>
-                                    <div class="recent-post-widget-info">
-                                        <div class="blog-info blog-date greennature-skin-info"><i class="fa fa-clock-o"></i><a href="#">21 Mar 2014</a></div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-column three columns" id="footer-widget-4">
-                    <div id="gdlr-recent-portfolio2-widget-6" class="widget widget_gdlr-recent-portfolio2-widget greennature-item greennature-widget">
-                        <h3 class="greennature-widget-title">Recent Works</h3>
-                        <div class="clear"></div>
-                        <div class="greennature-recent-port2-widget">
-                            <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="layout/upload/shutterstock_161515241-150x150.jpg" alt="" width="150" height="150" /></a>
-                            </div>
-                            <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="layout/upload/shutterstock_133689230-150x150.jpg" alt="" width="150" height="150" /></a>
-                            </div>
-                            <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="layout/upload/shutterstock_53600221-150x150.jpg" alt="" width="150" height="150" /></a>
-                            </div>
-                            <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="layout/upload/shutterstock_124871620-150x150.jpg" alt="" width="150" height="150" /></a>
-                            </div>
-                            <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="layout/upload/shutterstock_281995004-150x150.jpg" alt="" width="150" height="150" /></a>
-                            </div>
-                            <div class="recent-port-widget-thumbnail">
-                                <a href="#"><img src="layout/upload/shutterstock_256181956-150x150.jpg" alt="" width="150" height="150" /></a>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-
-            <div class="copyright-wrapper">
-                <div class="copyright-container container">
-                    <div class="copyright-left">
-                        <a href="#"><i class="greennature-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-twitter" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-dribbble" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-pinterest" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-google-plus" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-instagram" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
-                    </div>
-                    <div class="copyright-right">
-                       <a target="_blank" href="https://www.templateshub.net">Templates Hub</a> </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </footer>
-
-        <div class="greennature-payment-lightbox-overlay" id="greennature-payment-lightbox-overlay"></div>
-        <div class="greennature-payment-lightbox-container" id="greennature-payment-lightbox-container">
-            <div class="greennature-payment-lightbox-inner">
-                <form class="greennature-payment-form" id="greennature-payment-form" >
-                    <h3 class="greennature-payment-lightbox-title">
-				<span class="greennature-head">You are donating to :</span>
-				<span class="greennature-tail">Greennature Foundation</span>
-			</h3>
-
-                    <div class="greennature-payment-amount">
-                        <div class="greennature-payment-amount-head">How much would you like to donate?</div>
-                        <a class="greennature-payment-price-preset greennature-active" data-val="10">$10</a>
-                        <a class="greennature-payment-price-preset" data-val="20">$20</a>
-                        <a class="greennature-payment-price-preset" data-val="30">$30</a>
-                        <input class="greennature-payment-price-fill" type="text" placeholder="Or Your Amount(USD)" />
-                        <input class="greennature-payment-price" type="hidden" name="amount" value="10" />
-
-                        <input class="greennature-payment-price" type="hidden" name="a3" value="10">
-                    </div>
-
-                    <div class="greennature-paypal-attribute">
-                        <span class="greennature-head">Would you like to make regular donations?</span>
-                        <span class="greennature-subhead">I would like to make </span>
-                        <select name="t3" class="greennature-recurring-option">
-                            <option value="0">one time</option>
-                            <option value="W">weekly</option>
-                            <option value="M">monthly</option>
-                            <option value="Y">yearly</option>
-                        </select>
-                        <span class="greennature-subhead">donation(s)</span>
-                        <input type="hidden" name="p3" value="1" />
-                        <div class="greennature-recurring-time-wrapper">
-                            <span class="greennature-subhead">How many times would you like this to recur? (including this payment) *</span>
-                            <select name="srt" class="greennature-recurring-option">
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <input type="hidden" name="cmd" value="_xclick">
-                        <input type="hidden" name="bn" value="PP-BuyNowBF">
-                        <input type="hidden" name="src" value="1">
-                        <input type="hidden" name="sra" value="1">
-                    </div>
-
-                    <div class="greennature-form-fields">
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-left">
-                                <span class="greennature-head">Name *</span>
-                                <input class="greennature-require" type="text" name="name">
-                            </div>
-                        </div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-right">
-                                <span class="greennature-head">Last Name *</span>
-                                <input class="greennature-require" type="text" name="last-name">
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-left">
-                                <span class="greennature-head">Email *</span>
-                                <input class="greennature-require greennature-email" type="text" name="email">
-                            </div>
-                        </div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-right">
-                                <span class="greennature-head">Phone</span>
-                                <input type="text" name="phone">
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-left">
-                                <span class="greennature-head">Address</span>
-                                <textarea name="address"></textarea>
-                            </div>
-                        </div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-right">
-                                <span class="greennature-head">Additional Note</span>
-                                <textarea name="additional-note"></textarea>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="greennature-payment-method">
-                        <img class="greennature-active" src="images/paypal.png" alt="paypal" /><img src="layout/images/stripe.png" alt="stripe" />
-                        <input type="hidden" name="payment-method" value="paypal" /> </div>
-                    <div class="greennature-message"></div>
-                    <div class="greennature-loading">Loading...</div>
-                    <input type="submit" value="Donate Now" />
-                </form>
-            </div>
-        </div>
+      </div><!-- End Header Container -->
     </div>
-    <!-- body-wrapper -->
-<!-- 
-    <script type='text/javascript' src='js/jquery/jquery.js'></script>
-    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="{{ asset('js/jquery/jquery.js')}}"></script>
-    <script src="{{ asset('js/jquery/jquery-migrate.min.js')}}"></script>
-    <script>
-        var ms_grabbing_curosr = 'plugins/masterslider/public/assets/css/common/grabbing.html',
-            ms_grab_curosr = 'plugins/masterslider/public/assets/css/common/grab.html';
-    </script>
-    <!-- <script type='text/javascript' src='plugins/superfish/js/superfish.js'></script>
-    <script type='text/javascript' src='js/hoverIntent.min.js'></script>
-    <script type='text/javascript' src='plugins/dl-menu/modernizr.custom.js'></script>
-    <script type='text/javascript' src='plugins/dl-menu/jquery.dlmenu.js'></script>
-    <script type='text/javascript' src='plugins/jquery.easing.js'></script>
-    <script type='text/javascript' src='plugins/fancybox/jquery.fancybox.pack.js'></script>
-    <script type='text/javascript' src='plugins/fancybox/helpers/jquery.fancybox-media.js'></script>
-    <script type='text/javascript' src='plugins/fancybox/helpers/jquery.fancybox-thumbs.js'></script>
-    <script type='text/javascript' src='plugins/flexslider/jquery.flexslider.js'></script>
-    <script type='text/javascript' src='plugins/jquery.isotope.min.js'></script>
-    <script type='text/javascript' src='js/plugins.js'></script>
-    <script type='text/javascript' src='plugins/masterslider/public/assets/js/masterslider.min.js'></script>
-    <script type='text/javascript' src='plugins/jquery.transit.min.js'></script>
-    <script type='text/javascript' src='plugins/gdlr-portfolio/gdlr-portfolio-script.js'></script> -->
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
+      <h1>Low carbon society</h1>
+      <h2>Energy & Environmental consultant</h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="row">
+
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/clients/2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/img/clients/3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/img/clients/4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
+            <img src="assets/img/clients/5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/6.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/7.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Clients Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <h2>Our STORY</h2>
+            <h3>Proactively envisioned to provide reliable, flexible solutions. We cultivate long-term partnerships with our customers to deliver a range of services adapted to meet their specific needs.</h3>
+          </div>
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <h2 style="text-center">Our vision</h2>
+            <h3 style="text-indent:20px;">We are focusing in Sustainable Development Goals (SDGs) Our vision is to contribute to the attainment of sustainability which include Energy management, Environmental management and Social responsibility. More than 10 years on-field experience with many partnership around the region we ensure that our services and solutions will be suitable for your organization.</h3>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts d-none d-lg-block">
+      <div class="container ">
+      <h2 style="text-align:center"><b>OVERVIEW OF GROWTH</b></h2>
+
+        <div class="row counters ">
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 ">
+                    <span style=" margin-right:-150px" data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span style="margin-left:-120px">%</span>
+                </div>
+            </div>
+                <p>2010-2011</p>
+          </div>
+
+            
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 " >
+                    <span style=" margin-right:-150px" data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span style="margin-left:-100px">%</span>
+                </div>
+            </div>
+                <p>2010-2011</p>
+          </div>
+            
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 ">
+                    <span style=" margin-right:-150px" data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span style="margin-left:-100px">%</span>
+                </div>
+            </div>
+                <p>2014-2015</p>
+          </div>
+            
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 " >
+                    <span style=" margin-right:-150px" data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span style="margin-left:-100px">%</span>
+                </div>
+            </div>
+                <p>2016-2017</p>
+          </div>
+          <div class="ldBar fabrx-circle-progress label-center" data-stroke-width="8" data-stroke="#006EFF" data-size="200" data-stroke-trail="#f3f3f3" data-stroke-trail-width="11" data-preset="circle" data-value="50"></div>
+
+        </div>
+
+      </div>
+    </section>
     
-    <script src="{{ asset('plugins/superfish/js/superfish.js')}}"></script>
-    <script src="{{ asset('js/hoverIntent.min.js')}}"></script>
-    <script src="{{ asset('plugins/dl-menu/modernizr.custom.js')}}"></script>
-    <script src="{{ asset('plugins/dl-menu/jquery.dlmenu.js')}}"></script>
-    <script src="{{ asset('plugins/jquery.easing.js')}}"></script>
-    <script src="{{ asset('plugins/fancybox/jquery.fancybox.pack.js')}}"></script>
-    <script src="{{ asset('plugins/fancybox/helpers/jquery.fancybox-media.js')}}"></script>
-    <script src="{{ asset('plugins/fancybox/helpers/jquery.fancybox-thumbs.js')}}"></script>
-    <script src="{{ asset('plugins/flexslider/jquery.flexslider.js')}}"></script>
-    <script src="{{ asset('plugins/jquery.isotope.min.js')}}"></script>
-    <script src="{{ asset('plugins/masterslider/public/assets/js/masterslider.min.js')}}"></script>
-    <script src="{{ asset('plugins/jquery.transit.min.js')}}"></script>
-    <script src="{{ asset('plugins/gdlr-portfolio/gdlr-portfolio-script.js')}}"></script>
+    <section id="counts" class="counts d-block d-md-none">
+      <div class="container ">
+      <h2 style="text-align:center"><b>OVERVIEW OF GROWTH</b></h2>
 
-
-
-    <script>
-    (function ( $ ) {
-        "use strict";
-
-        $(function () {
-            var masterslider_d1da = new MasterSlider();
-
-            // slider controls
-			masterslider_d1da.control('arrows'     ,{ autohide:true, overVideo:true  });
-			masterslider_d1da.control('bullets'    ,{ autohide:false, overVideo:true, dir:'h', align:'bottom', space:6 , margin:25  });
-            // slider setup
-            masterslider_d1da.setup("slider_1", {
-				width           : 1140,
-				height          : 800,
-				minHeight       : 0,
-				space           : 0,
-				start           : 1,
-				grabCursor      : false,
-				swipe           : true,
-				mouse           : false,
-				keyboard        : true,
-				layout          : "fullwidth",
-				wheel           : false,
-				autoplay        : false,
-                instantStartLayers:false,
-				mobileBGVideo:false,
-				loop            : true,
-				shuffle         : false,
-				preload         : 0,
-				heightLimit     : true,
-				autoHeight      : false,
-				smoothHeight    : true,
-				endPause        : false,
-				overPause       : true,
-				fillMode        : "fill",
-				centerControls  : true,
-				startOnAppear   : false,
-				layersMode      : "center",
-				autofillTarget  : "",
-				hideLayers      : false,
-				fullscreenMargin: 0,
-				speed           : 20,
-				dir             : "h",
-				parallaxMode    : 'swipe',
-				view            : "basic"
-            });
-            
+        <div class="row counters ">
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 ">
+                    <span style=" margin-right:-50px" data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span>%</span>
+                </div>
+            </div>
+                <p>2010-2011</p>
+          </div>
 
             
-            $("head").append( "<link rel='stylesheet' id='ms-fonts'  href='http://fonts.googleapis.com/css?family=Montserrat:regular,700%7CCrimson+Text:regular' />" );
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 " >
+                    <span style=" margin-right:-30px" data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span>%</span>
+                </div>
+            </div>
+                <p>2010-2011</p>
+          </div>
+            
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 ">
+                    <span style=" margin-right:-30px" data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span>%</span>
+                </div>
+            </div>
+                <p>2014-2015</p>
+          </div>
+            
+          <div class="col-lg-3 col-5 text-center">
+            <div class="row">
+                <div class="col-lg-6 col-5 " >
+                    <span style=" margin-right:-30px" data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+                </div>
+                <div class="col-lg-6 col-5" >
+                    <span>%</span>
+                </div>
+            </div>
+                <p>2016-2017</p>
+          </div>
+          <div class="ldBar fabrx-circle-progress label-center" data-stroke-width="8" data-stroke="#006EFF" data-size="200" data-stroke-trail="#f3f3f3" data-stroke-trail-width="11" data-preset="circle" data-value="50"></div>
 
-            window.masterslider_instances = window.masterslider_instances || {};
-            window.masterslider_instances["5_d1da"] = masterslider_d1da;
-         });
-        
-    })(jQuery);
-    </script> 
+        </div>
+
+      </div>
+    </section>
+    <!-- End Counts Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="services" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-left">
+          <h2>SERVICES</h2>
+          </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-energy">ENERGY MANAGEMENT</li>
+              <li data-filter=".filter-environmental">ENVIRONMENTAL MANAGEMENT</li>
+              <li data-filter=".filter-bio">BIO SURFACTANTS</li>
+              <li data-filter=".filter-social">Social responsibility</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-energy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ENERGY MANAGEMENT</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ENERGY MANAGEMENT"><i class="bx bx-plus"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-environmental">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ENVIRONMENTAL MANAGEMENT</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ENVIRONMENTAL MANAGEMENT"><i class="bx bx-plus"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-energy">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ENERGY MANAGEMENT</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bio">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-social">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="section-title">
+              <h2>Contact</h2>
+              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <iframe style="border:0; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+            <div class="info mt-4">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 mt-4">
+                <div class="info">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="info w-100 mt-4">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>2BGREEN</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
-<!--  16:08 GMT -->
 </html>
