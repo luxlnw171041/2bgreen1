@@ -77,10 +77,9 @@
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container">
-
         <div class="row">
 
-
+       
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
             <img src="assets/img/clients/2.png" class="img-fluid" alt="">
           </div>
@@ -106,7 +105,6 @@
           </div>
 
         </div>
-
       </div>
     </section>
     <!-- End Clients Section -->
@@ -316,8 +314,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <h4>BIO SURFACTANTS</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                   
@@ -330,8 +327,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>Social responsibility</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                   
@@ -350,30 +346,33 @@
           <div class="col-lg-4" data-aos="fade-right">
             <div class="section-title">
               <h2>Contact</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
+              </div>
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
-            <iframe style="border:0; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-            <div class="info mt-4">
+            <iframe style="border:0; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26062.484282288435!2d100.53900883304962!3d13.826375260984902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d2b983987b3%3A0xbd95207d2c223be8!2zMuC4muC4tSDguIHguKPguLXguJkg4LiI4Liz4LiB4Lix4LiU!5e0!3m2!1sth!2sth!4v1623291354761!5m2!1sth!2sth" frameborder="0" allowfullscreen></iframe>
+              <div class="info mt-4">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>82/25 Cement-Thai, Ladyao,
+Chatuchak, Bangkok 10900</p>
             </div>
             <div class="row">
               <div class="col-lg-6 mt-4">
                 <div class="info">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>2bgreen@hotmail.com</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="info w-100 mt-4">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p>
+                      +66(0)86-977-7677,
+                      +66(0)95-556-5411
+                  </p>
                 </div>
               </div>
             </div>
