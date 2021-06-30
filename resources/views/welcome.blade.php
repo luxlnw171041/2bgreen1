@@ -43,7 +43,7 @@
     <div class="container">
       <div class="header-container d-flex align-items-center justify-content-between">
         <div class="logo">
-          <h1 class="text-light"><a href="index.html"><img src="assets/img/logo1.png" class="img-fluid" alt=""><span style="color:#009970;">2BGREEN</span></a></h1>
+          <h1 class="text-light"><a href=""><img src="assets/img/logo1.png" class="img-fluid" alt=""><span style="color:#009970;">2BGREEN</span></a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -55,6 +55,7 @@
             <li><a class="nav-link scrollto " href="#services">services</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+            <center><div id="google_translate_element"></div><center>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -394,12 +395,13 @@ Chatuchak, Bangkok 10900</p>
         <div class="copyright">
           &copy; Copyright <strong><span>2BGREEN</span></strong>. All Rights Reserved
         </div>
+
+        <audio id="player" autoplay controls loop><source src="assets/img/sound/2B-Green sound.mp3" type="audio/mp3"></audio>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           <div id="google_translate_element"></div>
         </div>
       </div>
@@ -432,7 +434,14 @@ Chatuchak, Bangkok 10900</p>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    document.addEventListener('click', musicPlay);
+    function musicPlay() {
+        document.getElementById('ID').play();
+        document.removeEventListener('click', musicPlay);
+    }
+  </script>       
+  
 </body>
 
 </html>
