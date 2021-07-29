@@ -267,6 +267,7 @@
               <li data-filter=".filter-environmental">ENVIRONMENTAL MANAGEMENT</li>
               <li data-filter=".filter-bio">BIO SURFACTANTS</li>
               <li data-filter=".filter-social">Social responsibility</li>
+              <li data-filter=".filter-ozone">OZONE</li>
             </ul>
           </div>
         </div>
@@ -319,7 +320,6 @@
                 <h4>BIO SURFACTANTS</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  
                 </div>
               </div>
             </div>
@@ -333,6 +333,87 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                   
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ozone">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ozone4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BIO SURFACTANTS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ozone4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ozone">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/0003.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BIO SURFACTANTS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/0003.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ozone">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/0004.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BIO SURFACTANTS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/0004.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ozone">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/0005.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BIO SURFACTANTS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/0005.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ozone">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/0006.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BIO SURFACTANTS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/0006.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ozone">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ozone2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BIO SURFACTANTS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ozone2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ozone">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ozone3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BIO SURFACTANTS</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ozone3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -351,20 +432,20 @@
               </div>
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
             <iframe style="border:0; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26062.484282288435!2d100.53900883304962!3d13.826375260984902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d2b983987b3%3A0xbd95207d2c223be8!2zMuC4muC4tSDguIHguKPguLXguJkg4LiI4Liz4LiB4Lix4LiU!5e0!3m2!1sth!2sth!4v1623291354761!5m2!1sth!2sth" frameborder="0" allowfullscreen></iframe>
               <div class="info mt-4">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
               <p>82/25 Cement-Thai, Ladyao,
-Chatuchak, Bangkok 10900</p>
+              Chatuchak, Bangkok 10900</p>
             </div>
             <div class="row">
               <div class="col-lg-6 mt-4">
                 <div class="info">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>2bgreen@hotmail.com</p>
+                  <p>2bgreen@hotmail.co.th</p>
                 </div>
               </div>
               <div class="col-lg-6">
