@@ -35,7 +35,11 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-
+<style>
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd{
+    display: none!important;
+  }
+</style>
 <body>
 
   <!-- ======= Header ======= -->
@@ -79,9 +83,7 @@
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container">
-        <div class="row">
-
-       
+        <div class="row d-flex justify-content-center">
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
             <img src="assets/img/clients/2.png" class="img-fluid" alt="">
           </div>
@@ -106,6 +108,21 @@
             <img src="assets/img/clients/7.png" class="img-fluid" alt="">
           </div>
 
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
+            <img src="assets/img/clients/8.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/9.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/10.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/11 .jpg" class="img-fluid" alt="">
+          </div>
         </div>
       </div>
     </section>
@@ -121,7 +138,7 @@
             <h3>Proactively envisioned to provide reliable, flexible solutions. We cultivate long-term partnerships with our customers to deliver a range of services adapted to meet their specific needs.</h3>
           </div>
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <h2 style="text-center">Our vision</h2>
+            <h2 class="text-center">Our vision</h2>
             <h3 style="text-indent:20px;">We are focusing in Sustainable Development Goals (SDGs) Our vision is to contribute to the attainment of sustainability which include Energy management, Environmental management and Social responsibility. More than 10 years on-field experience with many partnership around the region we ensure that our services and solutions will be suitable for your organization.</h3>
           </div>
         </div>
@@ -144,7 +161,7 @@
                     <span style="margin-left:-120px">%</span>
                 </div>
             </div>
-                <p>2010-2011</p>
+                <p>2010-2013</p>
           </div>
 
             
@@ -157,8 +174,8 @@
                     <span style="margin-left:-100px">%</span>
                 </div>
             </div>
-                <p>2010-2011</p>
-          </div>
+                <p>2014-2017</p>
+          </div>  
             
           <div class="col-lg-3 col-5 text-center">
             <div class="row">
@@ -169,7 +186,7 @@
                     <span style="margin-left:-100px">%</span>
                 </div>
             </div>
-                <p>2014-2015</p>
+                <p>2018-2021</p>
           </div>
             
           <div class="col-lg-3 col-5 text-center">
@@ -181,7 +198,7 @@
                     <span style="margin-left:-100px">%</span>
                 </div>
             </div>
-                <p>2016-2017</p>
+                <p>2022-2025</p>
           </div>
           <div class="ldBar fabrx-circle-progress label-center" data-stroke-width="8" data-stroke="#006EFF" data-size="200" data-stroke-trail="#f3f3f3" data-stroke-trail-width="11" data-preset="circle" data-value="50"></div>
 
@@ -204,7 +221,7 @@
                     <span>%</span>
                 </div>
             </div>
-                <p>2010-2011</p>
+                <p>2010-2013</p>
           </div>
 
             
@@ -215,9 +232,9 @@
                 </div>
                 <div class="col-lg-6 col-5" >
                     <span>%</span>
-                </div>
+                </div>  
             </div>
-                <p>2010-2011</p>
+                <p>2014-2017</p>
           </div>
             
           <div class="col-lg-3 col-5 text-center">
@@ -229,7 +246,7 @@
                     <span>%</span>
                 </div>
             </div>
-                <p>2014-2015</p>
+                <p>2018-2021</p>
           </div>
             
           <div class="col-lg-3 col-5 text-center">
@@ -241,7 +258,7 @@
                     <span>%</span>
                 </div>
             </div>
-                <p>2016-2017</p>
+                <p>2022-2025</p>
           </div>
           <div class="ldBar fabrx-circle-progress label-center" data-stroke-width="8" data-stroke="#006EFF" data-size="200" data-stroke-trail="#f3f3f3" data-stroke-trail-width="11" data-preset="circle" data-value="50"></div>
 
