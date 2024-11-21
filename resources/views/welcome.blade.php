@@ -282,13 +282,13 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-energy">ENERGY MANAGEMENT</li>
               <li data-filter=".filter-environmental">ENVIRONMENTAL MANAGEMENT</li>
-              <li data-filter=".filter-bio">BIO SURFACTANTS</li>
+              <li data-filter=".filter-construction">CONSTRUCTION AND RENOVATION</li>
               <li data-filter=".filter-social">Social responsibility</li>
               <li data-filter=".filter-ozone">OZONE</li>
             </ul>
           </div>
         </div>
-
+        
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-energy">
@@ -306,17 +306,40 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-environmental">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/management1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>ENVIRONMENTAL MANAGEMENT</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ENVIRONMENTAL MANAGEMENT"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/management1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ENVIRONMENTAL MANAGEMENT"><i class="bx bx-plus"></i></a>
                   
                 </div>
               </div>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 portfolio-item filter-environmental">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/management2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ENVIRONMENTAL MANAGEMENT</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/management2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ENVIRONMENTAL MANAGEMENT"><i class="bx bx-plus"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-environmental">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/management3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ENVIRONMENTAL MANAGEMENT</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/management3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ENVIRONMENTAL MANAGEMENT"><i class="bx bx-plus"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-energy">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
@@ -330,18 +353,161 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-bio">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>CONSTRUCTION AND RENOVATION</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/6.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/7.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/7.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/8.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/8.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/9.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/10.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/10.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/11.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/11.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/12.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/12.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/13.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/13.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/14.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CONSTRUCTION AND RENOVATION</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/14.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-social">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">
@@ -359,7 +525,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/ozone4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>OZONE</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/ozone4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
@@ -371,7 +537,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/0003.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>OZONE</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/0003.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
@@ -382,7 +548,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/0004.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>OZONE</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/0004.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
@@ -393,7 +559,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/0005.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>OZONE</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/0005.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
@@ -404,7 +570,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/0006.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>OZONE</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/0006.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
@@ -416,7 +582,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/ozone2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>OZONE</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/ozone2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
@@ -428,7 +594,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/ozone3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>BIO SURFACTANTS</h4>
+                <h4>OZONE</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/ozone3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 </div>
@@ -454,7 +620,7 @@
               <div class="info mt-4">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
-              <p>82/25 Cement-Thai, Ladyao,
+              <p>Cement-Thai Village, Ladyao,
               Chatuchak, Bangkok 10900</p>
             </div>
             <div class="row">
