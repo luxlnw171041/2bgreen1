@@ -121,7 +121,15 @@
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-            <img src="assets/img/clients/11 .jpg" class="img-fluid" alt="">
+            <img src="assets/img/clients/11.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/12.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/13.jpg" class="img-fluid" alt="">
           </div>
         </div>
       </div>
